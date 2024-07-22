@@ -44,6 +44,7 @@ a {
 .header {
     background-color: #e6f0ff;
     height: 100vh;
+    position: relative;
 }
 
 .navbar {
@@ -79,4 +80,48 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     line-height: 14px;
+}
+
+/* ----- Hero ------ */
+.hero {
+    margin-top: 130px;
+    width: 51%;
+}
+
+.hero .subtile {
+    color: #687690;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.hero .title {
+    margin-top: 8px;
+    color: #000336;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.18; /* 118.75% */
+}
+
+.hero .desc {
+    margin-top: 30px;
+    color: #5a6473;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.77; /* 177.778% */
+}
+
+.hero .hero-cta {
+    margin-top: 40px;
+    min-width: 170px;
+}
+
+.hero .hero-image {
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1110px) / 2 - 100px);
 }
