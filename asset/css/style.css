@@ -125,3 +125,30 @@ a {
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
 }
+
+/* ----- Clients ----- */
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients .row-logo {
+    margin-top: 122px;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+
+.clients .desc {
+    color: #7d8589;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25; /* 125% */
+}
+
+.clients .row-clients-logo {
+    margin-top: 70px;
+}
