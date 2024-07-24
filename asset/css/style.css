@@ -29,7 +29,7 @@ a {
 
 .btn {
     display: inline-block;
-    min-width: 9.8rem;
+    min-width: 98px;
     padding: 18px 16px;
     border-radius: 8px;
     background: var(--primary-color);
@@ -151,4 +151,88 @@ a {
 
 .clients .row-clients-logo {
     margin-top: 70px;
+}
+
+/* ----- Clients ----- */
+.guides {
+    margin-top: 175px;
+}
+
+.guides .title {
+    position: relative;
+    color: #000339;
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.guides .title::before {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    /* display: inline-block; */
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+}
+
+.guides .sub-title {
+    margin: 20px auto 0px;
+    width: 459px;
+    max-width: 100%;
+    color: #5a6473;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87; /* 187.5% */
+}
+
+.guide-list {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.guide-list .guide-item {
+    text-align: center;
+}
+
+.guide-list .item-title {
+    margin-top: 26px;
+    color: #3b3c45;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1; /* 110% */
+}
+
+.guide-list .link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0689ff;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.guide-list .arrow {
+    margin-left: 6px;
+}
+
+.guides .guide-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.guides .btn {
+    min-width: 170px;
 }
