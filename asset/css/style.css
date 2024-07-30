@@ -516,3 +516,27 @@ a {
     font-weight: 450;
     line-height: 16px;
 }
+
+.stats .row-count {
+    margin-top: 110px;
+    display: flex;
+    gap: 220px;
+    padding: 0 32px;
+}
+
+.stats .count-info .heading {
+    color: #000;
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.stats .count-info .desc {
+    margin-top: 24px;
+    color: #7b8087;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
